@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/doge.png" type="image/x-icon">
+    <title>Doge's Bank</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-indigo-50">
+    <header>
+        <h1 class="text-5xl text-center mt-12 font-mono text-indigo-600">Welcome To Your <span
+                class="font-semibold text-violet-700">Doge's Bank!!!</span></h1>
+        <img src="./doge.gif" width="150px" height="150px" class="mx-auto rounded-full mt-4">
+    </header>
+    <main>
+        <section class="bg-indigo-200 w-9/12 mx-auto mt-10 p-8 text-center	rounded-lg drop-shadow">
+            <h2 class="text-3xl mb-5 font-medium">Please Login</h2>
+            <div>
+                <input
+                    class="w-9/12 h-10 block mb-3 px-3 rounded focus:outline-none focus:ring focus:ring-violet-300  mx-auto"
+                    type="email" name="email" id="user-email" placeholder="Enter your email address...">
+                <input
+                    class="w-9/12 h-10 block mb-3 px-3 rounded focus:outline-none focus:ring focus:ring-violet-300  mx-auto"
+                    type="password" name="password" id="user-password" placeholder="Enter your password...">
+                <button id="submit-btn"
+                    class="bg-indigo-600 py-3 px-20 rounded text-white font-semibold hover:bg-indigo-800 mt-4">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
